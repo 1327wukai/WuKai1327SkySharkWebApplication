@@ -3,5 +3,6 @@
     HOME
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>Welcome to Skyshark</h1>
+    <h1>Welcome to Skyshark Airline Home Page</h1>
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/skyShark.png"/>
 </asp:Content>
