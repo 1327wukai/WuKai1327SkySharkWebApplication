@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BM\AddFl.aspx" />
+    <Content Include="BM\FreqFl.aspx" />
+    <Content Include="BM\Reports.aspx" />
+    <Content Include="BM\RequestID.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
@@ -76,6 +80,34 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BM\AddFl.aspx.cs">
+      <DependentUpon>AddFl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BM\AddFl.aspx.designer.cs">
+      <DependentUpon>AddFl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BM\FreqFl.aspx.cs">
+      <DependentUpon>FreqFl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BM\FreqFl.aspx.designer.cs">
+      <DependentUpon>FreqFl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BM\Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BM\Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BM\RequestID.aspx.cs">
+      <DependentUpon>RequestID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BM\RequestID.aspx.designer.cs">
+      <DependentUpon>RequestID.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ChangePassword.aspx.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -121,7 +153,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="BM\" />
     <Folder Include="images\" />
     <Folder Include="LOB\" />
     <Folder Include="Models\" />
