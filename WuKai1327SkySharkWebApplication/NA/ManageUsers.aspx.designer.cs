@@ -7,11 +7,11 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace WuKai1327SkySharkWebApplication.BM
+namespace WuKai1327SkySharkWebApplication.NA
 {
 
 
-    public partial class RequestID
+    public partial class ManageUsers
     {
 
         /// <summary>
@@ -60,57 +60,102 @@ namespace WuKai1327SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
 
         /// <summary>
-        /// Label2 控件。
+        /// lblMessage 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
-        /// txtUserID 控件。
+        /// txtAddUserName 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUserID;
+        protected global::System.Web.UI.WebControls.TextBox txtAddUserName;
 
         /// <summary>
-        /// RequiredFieldValidator1 控件。
+        /// Label6 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Label3 控件。
+        /// txtDelUsername 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.TextBox txtDelUsername;
 
         /// <summary>
-        /// lstRole 控件。
+        /// txtAddPassword 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox lstRole;
+        protected global::System.Web.UI.WebControls.TextBox txtAddPassword;
 
         /// <summary>
-        /// btnSubmit 控件。
+        /// btnDelDelete 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
+        protected global::System.Web.UI.WebControls.Button btnDelDelete;
+
+        /// <summary>
+        /// Label4 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label4;
+
+        /// <summary>
+        /// txtAddConfPassword 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAddConfPassword;
+
+        /// <summary>
+        /// Label5 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+
+        /// <summary>
+        /// lstAddRole 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox lstAddRole;
+
+        /// <summary>
+        /// btnAddSubmit 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAddSubmit;
     }
 }

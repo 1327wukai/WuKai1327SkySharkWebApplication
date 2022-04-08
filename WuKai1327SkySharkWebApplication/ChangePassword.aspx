@@ -11,6 +11,11 @@
             width: 223px;
         }
     </style>
+    <style type="text/css">
+        .auto-style1 {
+            width: 231px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
