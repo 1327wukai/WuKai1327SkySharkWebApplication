@@ -43,7 +43,7 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:Button ID="btnSubmit" runat="server" Text="Logon" />
+                        <asp:Button ID="btnSubmit" runat="server" Text="Logon" OnClick="btnSubmit_Click" />
                     </td>
                     <td></td>
                 </tr>
