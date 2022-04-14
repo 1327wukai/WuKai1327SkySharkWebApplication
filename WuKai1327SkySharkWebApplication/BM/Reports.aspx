@@ -6,6 +6,11 @@
             height: 27px;
         }
     </style>
+    <style type="text/css">
+        .auto-style1 {
+            height: 31px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
@@ -37,7 +42,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Generate a Flight usage report for all flights flown by airline"></asp:Label>
                     </td>
                     <td class="auto-style1">
-                        <asp:Button ID="Button1" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" />
+                        <asp:Button ID="Button1" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" OnClick="Button1_Click" />
                     </td>
                     <td class="auto-style1"></td>
                 </tr>
@@ -46,7 +51,7 @@
                         <asp:Label ID="Label3" runat="server" Text="Generate a customer affinity report for top 100 customers"></asp:Label>
                     </td>
                     <td>
-                        <asp:Button ID="Button2" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" />
+                        <asp:Button ID="Button2" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" OnClick="Button2_Click" />
                     </td>
                     <td></td>
                 </tr>
@@ -78,7 +83,7 @@
                         </asp:ListBox>
                     </td>
                     <td>
-                        <asp:Button ID="Button3" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" />
+                        <asp:Button ID="Button3" runat="server" BackColor="Silver" BorderColor="Blue" Text="Generate" OnClick="Button3_Click" />
                     </td>
                     <td></td>
                 </tr>
