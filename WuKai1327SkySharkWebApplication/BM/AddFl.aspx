@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FreqFl.aspx.cs" Inherits="WuKai1327SkySharkWebApplication.BM.FreqFl" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="AddFl.aspx.cs" Inherits="WuKai1327SkySharkWebApplication.BM.AddFl" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     Business Manager
     <style type="text/css">
@@ -11,10 +11,10 @@
     <form id="form1" runat="server">
         <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick" Orientation="Horizontal">
             <Items>
-                <asp:MenuItem NavigateUrl="~/BM/AddFI.aspx" Selected="True" Text="Add Flight" Value="Add Flight"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/BM/RequestID.aspx" Text="Request ID" Value="Request ID"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/BM/Reports.aspx" Text="Reports" Value="Reports"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/BM/FreqFI.aspx" Text="Frequent Filters" Value="Frequent Filters"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="AddFl.aspx" Selected="True" Text="Add Flight" Value="Add Flight"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="RequestID.aspx" Text="Request ID" Value="Request ID"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="Reports.aspx" Text="Reports" Value="Reports"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="FreqFl.aspx" Text="Frequent Filters" Value="Frequent Filters"></asp:MenuItem>
             </Items>
         </asp:Menu>
         <div class="tabContents">

@@ -7,11 +7,11 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace Wukai1327SkySharkWebApplication.BM
+namespace WuKai1327SkySharkWebApplication.BM
 {
 
 
-    public partial class AddFI
+    public partial class AddFl
     {
 
         /// <summary>

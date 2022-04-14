@@ -6,10 +6,10 @@
     <form id="form1" runat="server">
         <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
             <Items>
-                <asp:MenuItem NavigateUrl="~/BM/AddFI.aspx" Text="Add Flight" Value="Add Flight"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/BM/RequestID.aspx" Text="Request ID" Value="Request ID" Selected="True"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/BM/Reports.aspx" Text="Reports" Value="Reports"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/BM/FreqFI.aspx" Text="Frequent Filters" Value="Frequent Filters"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="AddFl.aspx" Text="Add Flight" Value="Add Flight"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="RequestID.aspx" Text="Request ID" Value="Request ID" Selected="True"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="Reports.aspx" Text="Reports" Value="Reports"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="FreqFl.aspx" Text="Frequent Filters" Value="Frequent Filters"></asp:MenuItem>
             </Items>
         </asp:Menu>
         <div class="tabContents">

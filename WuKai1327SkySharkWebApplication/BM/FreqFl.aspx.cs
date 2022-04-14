@@ -13,5 +13,10 @@ namespace WuKai1327SkySharkWebApplication.BM
         {
 
         }
+
+        protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
+        {
+
+        }
     }
 }

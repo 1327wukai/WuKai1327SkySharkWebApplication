@@ -11,7 +11,7 @@ namespace WuKai1327SkySharkWebApplication.BM
 {
 
 
-    public partial class FreqFI
+    public partial class FreqFl
     {
 
         /// <summary>
