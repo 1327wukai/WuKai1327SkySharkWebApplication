@@ -72,6 +72,7 @@ namespace WuKai1327SkySharkWebApplication
                         lblMessage.Text = "Invalid password";
                     }
                 }
+                conn.Close();
             }
         }
     }
