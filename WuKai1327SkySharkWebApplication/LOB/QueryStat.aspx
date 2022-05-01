@@ -23,7 +23,7 @@
             <table>
                 <tr>
                     <td colspan="2">
-                        <asp:Label ID="Label1" runat="server" Text="Enquiry about the status of flights and tickets"></asp:Label></td>
+                        <asp:Label ID="Label1" runat="server" Text="Enquiry About Flight and Ticket Status"></asp:Label></td>
                 </tr>
                 <tr>
                     <td></td>

@@ -23,7 +23,7 @@
             <table>
                 <tr>
                     <td colspan="2">
-                        <asp:Label ID="Label1" runat="server" Text="Cancel a new Reservation"></asp:Label></td>
+                        <asp:Label ID="Label1" runat="server" Text="Cancle a Reservation"></asp:Label></td>
                     <td></td>
                 </tr>
                 <tr>

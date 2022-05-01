@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace WuKai1327SkySharkWebApplication.BM
@@ -26,6 +22,7 @@ namespace WuKai1327SkySharkWebApplication.BM
             String ConnectionString = ConfigurationManager.ConnectionStrings["ARPDatabaseConnectionString"].ConnectionString;
             SqlConnection conn = new SqlConnection(ConnectionString);
             conn.Open();
+
             string selectSql = "SELECT FltNo FROM dtFltDetails";
             SqlCommand cmd = new SqlCommand(selectSql, conn);
 
@@ -36,14 +33,22 @@ namespace WuKai1327SkySharkWebApplication.BM
             conn.Close();
             foreach (DataRow row in dataSet.Tables["FlightNO"].Rows)
             {
+                if (row[0].ToString().Trim() == txtFlightNumber.Text.Trim())
+                {
                 lblMessage.Text = "The Flight already exists. Please try another fligh number";
                 return;
+                }
             }
+
             TimeSpan deptime, arrtime;
+            String DepDateTime, ArrDateTime;
             try
             {
                 deptime = Convert.ToDateTime(txtDepartureTime.Text).TimeOfDay;
                 arrtime = Convert.ToDateTime(txtArrivalTime.Text).TimeOfDay;
+                DepDateTime = Calendar1.SelectedDate.ToShortToString() + " " + deptime.ToString();
+                ArrDateTime = Calendar2.SelectedDate.ToShortToString() + " " + arrtime.ToString();
+
                 if (deptime >= arrtime)
                 {
                     lblMessage.Text = "Departure Time cant be greater than or equal to arrival time";
